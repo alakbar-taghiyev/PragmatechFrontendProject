@@ -1,1 +1,1 @@
-araşdırma
+#Araşdırma mövzuları:
