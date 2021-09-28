@@ -1,1 +1,0 @@
-#Araşdırma mövzuları:
