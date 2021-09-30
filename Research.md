@@ -25,6 +25,38 @@ HTML Elementləri üçün CSS Default Brauzer Dəyərləri hansılardır?
    - vh (viewport-Height) - sehifənin görünən tərəfinin x%ni tutur (1vh = 1%)
 
 ### a tag:
+   - color: (internal value);
+   - text-decoration: underline;
+   - cursor: auto;
+
+#### text-decoration:
+   - text-decoration-color (xəttin rəngini təyin edir)
+     - text-decoration-color: red; 
+     - text-decoration-color: #21ff21;
+     - text-decoration-color: rgb(255, 90, 255);
+     - text-decoration-color: hsl(70, 100%, 40%);
+     - text-decoration-color: currentColor;
+   - text-decoration-line (xəttin növünü təyin edir)
+     - text-decoration-line: none;
+     - text-decoration-line: underline; 
+     - text-decoration-line: overline; 
+     - text-decoration-line: line-through;  
+     - text-decoration-line: underline overline;  
+     - text-decoration-line: underline line-through;
+     - text-decoration-line: overline underline line-through;
+     - text-decoration-line: blink;
+   - text-decoration-style ()
+     - text-decoration-style: solid;
+     - text-decoration-style: double;
+     - text-decoration-style: dotted;
+     - text-decoration-style: dashed;
+     - text-decoration-style: wavy;
+  
+  
+   - initial
+   - inherit
+   - revert
+   - unset
 
 ### button tag:
 
