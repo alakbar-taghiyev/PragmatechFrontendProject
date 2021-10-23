@@ -1,0 +1,16 @@
+$big-width: 1200px;
+
+
+#header {
+    .container {
+        .head {
+            .head__logo {
+                
+            }
+            .head__nav {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
