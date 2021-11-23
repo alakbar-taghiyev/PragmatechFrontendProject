@@ -17,9 +17,8 @@ if(firstName==='Alakbar') {
     } else {
         console.log('mumkun deyil')
     }
-
-    
-} else {
+}
+else {
     console.log('ala bilmez')
 } */
 
@@ -88,7 +87,7 @@ switch(true) {
         console.log(`${firstName} is adult`);
 } */
 
-var result = prompt("who's there");
+/* var result = prompt("who's there");
 let password = prompt('enter password');
 
 
@@ -106,4 +105,49 @@ if (result=='cancel') {
     }  
 } else {
     console.log("I don't know");
+} */
+
+/* let val;
+
+let person = {
+    firstName : 'Alakbar',
+    lastName : 'Taghiyev',
+    age :  22,
+    hobbies : ['music', 'game'],
+    adress : {
+        city: 'Baku',
+        country: 'Azerbaijan',
+    },
+    getBirthYear: function() {
+        return 2018 - this.age;
+    }
 }
+
+val = person.adress;
+val = person.hobbies;
+val= person.hobbies[1];
+val = person.hobbies.length;
+val = person.adress;
+val = person.adress.city;
+val = person.adress['country'];
+val = person.getBirthYear()
+
+console.log(val)
+console.log(typeof person) */
+
+/* let people = [
+            {firstname: 'Alakbar', lastName: 'Taghiyev', age: 22},
+            {firstname: 'Alakbar', lastName: 'Taghiyev', age: 22},
+            {firstname: 'Alakbar', lastName: 'Taghiyev', age: 22},
+            {firstname: 'Alakbar', lastName: 'Taghiyev', age: 22}
+            ]
+
+val = people[1].lastName
+
+console.log (people);
+console.log(typeof people);
+console.log(val)
+
+for (let i=0; i<people.length; i++) {
+    console.log(people[i].age)
+} */

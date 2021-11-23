@@ -27,10 +27,11 @@ console.log(typeof yash)
 let names = ['Alik', 'Aida']  //array
 console.log(typeof names)
 
-let adress = {   //object
+let adress = {                //object
     city: 'Baku',
     country: 'Azerbaijan'
 }
+
 console.log(typeof adress)
 
 var calculateAge = function() {
@@ -60,8 +61,6 @@ val = parseFloat('10.5')
 val = Number(true)
 val = Number('a') */
 
-
-
 /* console.log(val)
 /* console.log(val.toFixed(2)) */
 /* console.log(typeof val)  */
@@ -76,7 +75,6 @@ var customerAdress = {
     country: 'Azerbaijan'
 }
 var customerHobies = ['dancing' , 'drawing'] */
-
 
 /* var order1 = Number('100');
 var order2 = Number('150');
@@ -142,5 +140,3 @@ let Ada_Position = (formul_ada>=25)&&(formul_ada<=29.9)
 console.log(val)
 console.log(Ada_Position)
  */
-
-
