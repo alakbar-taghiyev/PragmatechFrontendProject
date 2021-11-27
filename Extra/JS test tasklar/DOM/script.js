@@ -160,36 +160,91 @@ for(let i=0; i<list.childNodes.length; i++) {
 
 // create element
 
-const li = document.createElement('li');
+/* const li = document.createElement('li'); */
 
 // add class
 
-li.className='list-group-item list-group-item-secondary';
+/* li.className='list-group-item list-group-item-secondary'; */
 
 // add attribute
 
-li.setAttribute('title', 'new item');
-li.setAttribute('data-id', '5');
+/* li.setAttribute('title', 'new item');
+li.setAttribute('data-id', '5'); */
 
 // text node
 
-const text = document.createTextNode('new item');
+/* const text = document.createTextNode('new item');
 
 li.appendChild(text);
 
 const a = document.createElement('a');
 a.setAttribute('href','#');
 a.className='delete-item float-right';
-a.innerHTML = '<i classs="fas fa-times"></i>';
+a.innerHTML = '<i classs="fas fa-times"></i>'; */
 
 // append a to li
 
-li.appendChild(a);
+/* li.appendChild(a); */
 
 // append lu to ul
 
-document.querySelector('#task-list').appendChild(li);
+/* document.querySelector('#task-list').appendChild(li);
 
-console.log(li);
+console.log(li); */
+
+const taskList  = document.querySelector('#task-list');
+
+// ** removing element
+
+// taskList.remove();
+// taskList.childNodes[7].remove();
+// taskList.children[0].remove()
+// taskList.removeChild(taskList.children[3]);
+
+// ** removing attribute
+
+/* taskList.children[0].removeAttribute('class');
+
+for(let i=0; i<taskList.children.length; i++) {
+    taskList.children[i].removeAttribute('class')
+} */
+
+// ** replacing Elements
+
+/* const cardHeader = document.querySelector('.card-header');
+
+// create element
+
+const h2 = document.createElement('h2');
+h2.setAttribute('class', 'card-header');
+h2.appendChild(document.createTextNode('My list'));
+
+const parent = document.querySelector('.card')
+parent.replaceChild(h2, cardHeader);
 
 
+console.log(taskList); */
+
+// ** Classes
+
+let val;
+
+link = taskList.children[0].children[0]
+
+/* val = link.className;
+val = link.classList;
+val = link.classList[0];
+val = link.classList[1];
+
+link.classList.add('new');
+link.classList.remove('new'); */
+
+// Attributes
+
+val = link.setAttribute('href', 'alakbar-taghiyev.com')
+val = link.getAttribute('href');
+val = link.hasAttribute('href')  //true
+val = link.hasAttribute('data')  //false
+
+
+console.log(val)
