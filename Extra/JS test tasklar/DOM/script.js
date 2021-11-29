@@ -192,7 +192,7 @@ a.innerHTML = '<i classs="fas fa-times"></i>'; */
 
 console.log(li); */
 
-const taskList  = document.querySelector('#task-list');
+// const taskList  = document.querySelector('#task-list');
 
 // ** removing element
 
@@ -227,9 +227,9 @@ console.log(taskList); */
 
 // ** Classes
 
-let val;
+/* let val;
 
-link = taskList.children[0].children[0]
+link = taskList.children[0].children[0] */
 
 /* val = link.className;
 val = link.classList;
@@ -241,10 +241,10 @@ link.classList.remove('new'); */
 
 // Attributes
 
-val = link.setAttribute('href', 'alakbar-taghiyev.com')
+/* val = link.setAttribute('href', 'alakbar-taghiyev.com')
 val = link.getAttribute('href');
 val = link.hasAttribute('href')  //true
 val = link.hasAttribute('data')  //false
 
 
-console.log(val)
+console.log(val) */
